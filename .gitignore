@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+.venv310/
+env/
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Experiment output
+output/
+*.log
+
+# IDE
+.vscode/
+.idea/

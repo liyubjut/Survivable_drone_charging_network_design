@@ -1,0 +1,12 @@
+# Runtime dependencies of the two-radius ORL experiment.
+# CPLEX is required: both the FLOW-IP baseline and the Stage-2 master LP are
+# solved through its Python API (this project does not fall back to a free
+# solver).  Install IBM ILOG CPLEX Optimization Studio 22.1 first so that the
+# `cplex` module is importable in this interpreter.
+cplex==22.1.1.0
+networkx>=3.0
+numpy>=1.23
+scipy>=1.9
+
+# Development / test dependencies.
+pytest>=7.0
